@@ -12,7 +12,7 @@ body {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-  vertical-align: top; 
+  vertical-align: top;
 }
 
 a {
@@ -29,19 +29,19 @@ b {
 
 ul {
   padding: 0;
-  list-style: none; 
+  list-style: none;
 }
 
 p {margin: 0;}
 
 img {
   max-width: 100%;
-  height: auto; 
+  height: auto;
 }
 
-input:focus, 
+input:focus,
 textarea:focus {
-  outline: none; 
+  outline: none;
 }
 
 :focus::-webkit-input-placeholder {color: transparent;}
@@ -57,7 +57,7 @@ textarea:focus {
   font-size: 0;
   content: " ";
   clear: both;
-  height: 0; 
+  height: 0;
 }
 
 [class*="container"] {
@@ -286,6 +286,7 @@ textarea:focus {
   height: 15px;
   text-indent: -10000px;
   background: url("../img/sprite.png") no-repeat -66px -6px;
+  background-color: #fff;
   z-index: 2;
   opacity: 0.4;
   cursor: pointer;
