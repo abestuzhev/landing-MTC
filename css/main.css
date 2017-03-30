@@ -65,11 +65,6 @@ textarea:focus {
   width: 1280px;
 }
 
-@media only screen and (max-width: 1280px) {
-  [class*="container"] {
-    width: 100%;
-  }
-}
 
 .overley-page {
   display: none;
@@ -309,6 +304,11 @@ textarea:focus {
   margin-bottom: 70px;
   margin-top: 81px;
 }
+
+.banner_container {
+  overflow: hidden;
+}
+
 .banner_img {
   width: 100%;
   height: auto;
@@ -328,6 +328,13 @@ textarea:focus {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.banner_disclaimer {
+  font-size: 10px;
+  font-weight: 300;
+  color: #9b9b9b;
+  padding-top: 3px;
 }
 
 /*bonus*/
@@ -463,6 +470,11 @@ textarea:focus {
   bottom: 0;
 }
 
+.conditions_info {
+  font-size: 14px;
+  font-weight: 300;
+}
+
 /*info*/
 
 .info_container {
@@ -549,6 +561,21 @@ textarea:focus {
   list-style-type: disc;
 }
 
+.copyright {
+  padding: 10px 0 20px;
+}
+
+.copyright_container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.copyright_text {
+  font-size: 12px;
+  font-weight: 300;
+  color: #000;
+}
+
 @media all and (max-width: 1650px) {
   .banner_text {
     right: 10%;
@@ -580,6 +607,17 @@ textarea:focus {
   }
 }
 
+
+@media only screen and (max-width: 1280px) {
+  [class*="container"] {
+    width: 100%;
+  }
+
+  .banner_disclaimer {
+    padding: 3px 10px;
+  }
+}
+
 @media all and (max-width: 1100px) {
   .conditions_img {
     width: 485px;
@@ -595,7 +633,8 @@ textarea:focus {
   .bonus_container,
   .conditions_container,
   .info_container,
-  .terms-action {
+  .terms-action,
+  .copyright_container {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -674,6 +713,10 @@ textarea:focus {
   .top-header__nav-link:first-of-type {
     margin-top: 58px;
   }
+
+  .banner_disclaimer {
+    font-size: 9px;
+  }
 }
 
 @media all and (max-width: 460px) {
@@ -683,6 +726,10 @@ textarea:focus {
   }
   .conditions_item-icon span{
     font-size: 27px;
+  }
+
+  .copyright_container {
+    text-align: center;
   }
 }
 
